@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flow Timer - Support</title>
+    <style>
+        :root {
+            --primary-color: #007AFF;
+            --text-color: #333;
+            --bg-color: #fff;
+            --section-bg: #f5f5f7;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --text-color: #fff;
+                --bg-color: #000;
+                --section-bg: #1c1c1e;
+            }
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .section {
+            background: var(--section-bg);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        h2 {
+            color: var(--primary-color);
+            margin-top: 0;
+        }
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+        .feature-list li {
+            margin: 10px 0;
+            padding-left: 24px;
+            position: relative;
+        }
+        .feature-list li:before {
+            content: "•";
+            color: var(--primary-color);
+            position: absolute;
+            left: 0;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 40px;
+        }
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Flow Timer</h1>
+            <p>Your elegant time management companion</p>
+        </header>
+
+        <div class="section">
+            <h2>Features</h2>
+            <ul class="feature-list">
+                <li>Clean, intuitive interface with multiple elegant themes</li>
+                <li>Standard countdown timers for focused work sessions</li>
+                <li>HIIT workout timers with customizable intervals</li>
+                <li>Category organization for different activities</li>
+                <li>Multiple theme options: Modern, Futuristic, and Retro Board</li>
+                <li>Customizable app icons</li>
+                <li>Dark mode optimized</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Support</h2>
+            <p>Flow Timer is designed to be intuitive and easy to use. If you have any questions or feedback, please don't hesitate to reach out to us at:</p>
+            <div class="contact">
+                <a href="mailto:flowtimer@divpuri.co.uk">flowtimer@divpuri.co.uk</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Quick Start</h2>
+            <ul class="feature-list">
+                <li>Create a timer by tapping the + button</li>
+                <li>Choose between standard timer or HIIT timer</li>
+                <li>Set your desired duration and category</li>
+                <li>Start your timer and stay focused!</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Links</h2>
+            <ul class="feature-list">
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms of Use</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
